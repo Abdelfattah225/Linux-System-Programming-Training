@@ -1,31 +1,81 @@
-# Unix Utilities Assignment
+# Unix Utilities Implementation
 
-This repository contains implementations of four basic Unix utilities in C:
+This repository contains implementations of the following simple Unix utilities in C:
 
-1. **pwd** - Prints the current working directory.
-2. **echo** - Prints a user-provided string to standard output.
-3. **cp** - Copies a source file to a specified destination.
-4. **mv** - Moves (renames) a file to another location.
-
-Each utility is implemented as a separate C program.
-
----
+- `pwd`: Print the working directory.
+- `echo`: Print a user input string on stdout.
+- `cp`: Create a copy from a given source file to a given destination directory.
+- `mv`: Move a file to another place (might be with a different name).
 
 ## Compilation
 
-To compile all utilities, use the following commands:
+Each utility is implemented in a separate C file. To compile the utilities, use the following commands:
 
-```bash
+```sh
 gcc -o pwd pwd.c
 gcc -o echo echo.c
 gcc -o cp cp.c
 gcc -o mv mv.c
+```
 
 ## Usage
 
-### `pwd`
+### pwd
 
-Prints the current working directory.
+Print the current working directory.
 
-```bash
+```sh
 ./pwd
+```
+You can see the implementation [here](./pwd).
+
+**Example Output:**
+
+```
+/home/user/projects/unix-utilities
+```
+
+### echo
+
+Print a user input string on stdout.
+
+```sh
+./echo "Hello World"
+```
+
+
+
+**Example Output:**
+
+```
+Hello World
+```
+You can see the implementation [here](./echo).
+### cp
+
+Create a copy from a given source file to a given destination directory.
+
+```sh
+./cp source.txt /path/to/destination/
+```
+
+**Example Output:**
+
+```
+File 'source.txt' copied to '/path/to/destination/'
+```
+You can see the implementation [here](./cp).
+### mv
+
+Move a file to another place (might be with a different name).
+
+```sh
+./mv source.txt /path/to/destination/newname.txt
+```
+
+**Example Output:**
+
+```
+File 'source.txt' moved to '/path/to/destination/newname.txt'
+```
+You can see the implementation [here](./mv).
