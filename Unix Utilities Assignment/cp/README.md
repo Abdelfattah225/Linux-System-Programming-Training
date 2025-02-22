@@ -1,1 +1,1 @@
-![Unix Utilities](path/to/photo.jpg)
+![Unix Utilities](cp.jpg)
