@@ -55,5 +55,6 @@ gcc -o output_file main.c
 ./output_file
 ```
 ## Instructor
-**Reda Maher**
+**Eng.Reda Maher**
+
 Senior Software Engineer specialized in Linux, microcontrollers, and embedded systems.
