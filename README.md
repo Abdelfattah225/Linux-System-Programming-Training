@@ -32,9 +32,7 @@ After completing the course, I am now able to:
 linux-system-programming-training/
 │── README.md            # Overview of the course and repository details
 │── Notes/               # Notes
-│── assignments/         # Course assignments
-│   ├── assignment1/     # First assignment
-│   ├── assignment2/     # Second assignment
+│── Unix Utilities Assignment/         # First assignment
 ```
 ## Prerequisites
 Before starting, ensure you have:
