@@ -4,7 +4,7 @@
 Welcome to the Linux System Programming Training repository! This repository documents my journey through the Linux System Programming Training course, which deepened my understanding of the Linux kernel, system calls, process management, and low-level C programming.
 
 ## Table of Contents
-- [Overview](##overview)
+- [Overview](#overview)
 - [Course Description](#course-description)
 - [What I Learned](#what-i-learned)
 - [Repository Structure](#repository-structure)
@@ -12,7 +12,6 @@ Welcome to the Linux System Programming Training repository! This repository doc
 - [Getting Started](#getting-started)
 - [Running Assignments](#running-assignments)
 - [Instructor](#instructor)
-- [License](#license)
 
 ## Course Description
 The course aimed to:
@@ -49,7 +48,7 @@ Before starting, ensure you have:
 git clone https://github.com/Abdelfattah225/linux-system-programming-training.git
 cd linux-system-programming-training
 ```
-## Run the Assignments
+## Running Assignments
 **Navigate to the respective assignment folder and execute**
 ```sh
 gcc -o output_file main.c
