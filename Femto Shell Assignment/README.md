@@ -1,6 +1,6 @@
-# Femto Shell
+# Femto Shell implementation
 
-This repository contains a simple shell implementation in C called Femto Shell. The shell supports the following built-in commands:
+ a simple shell implementation in C called Femto Shell. The shell supports the following built-in commands:
 
 - `echo`: Echoes any text entered by the user.
 - `exit`: If the user enters "exit", the shell will reply with "Good Bye" and terminate.
@@ -21,9 +21,11 @@ To run the Femto Shell, use the following command:
 ./myFemtoShell
 ```
 
-### Example Output
+## Example Output
 
-![Example Output](Femto shell.png)
+
+![Example Output](Femto_shell.png)
+
 
 ```sh
 $ ./myFemtoShell
