@@ -31,8 +31,11 @@ After completing the course, I am now able to:
 ```plaintext
 linux-system-programming-training/
 │── README.md            # Overview of the course and repository details
-│── Notes/               # Notes
-│── Unix Utilities Assignment/         # First assignment
+│── Unix Utilities Assignment/      # 1st assignment
+│── Femto Shell Assignment/         # 2nd assignment
+│── Pico Shell Assignment/          # 3rd assignment
+│── Nano Shell Assignment/          # 4th assignment
+│── Micro Shell Assignment/         # 5th assignment
 ```
 ## Prerequisites
 Before starting, ensure you have:
