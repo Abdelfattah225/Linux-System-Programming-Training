@@ -61,7 +61,7 @@ Nano_shell/
 ```
 
 ## Example Output
-Below is a screenshot demonstrating the Pico Shell in action
+Below is a screenshot demonstrating the Nano Shell in action
 ![Nano Shell Output](NanoShell1.png)
 ![Nano Shell Output](NanoShell2.png)
 
