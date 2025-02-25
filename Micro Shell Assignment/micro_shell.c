@@ -307,7 +307,7 @@ int main()
 		args_count = 0;
 		memset(args, 0, sizeof(args));
 		// Display shell prompt
-		printf("Nano Shell Prompt > ");
+		printf("Micro Shell Prompt > ");
 		// Read user input from stdin
 
 		ReturnOffegts = fgets(buf, BUF_SIZE, stdin);
